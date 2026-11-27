@@ -1,0 +1,81 @@
+{
+  "title": "Machine-Checked Unsatisfiability Certificate for SAT Competition 2023 multiplier_14bits__miter_14",
+  "version": "1.0.0",
+  "resource_type": "Dataset",
+  "creator": "Takarashima, Kenshirou",
+  "source": {
+    "DOI": "10.5281/zenodo.11426992",
+    "record": "https://zenodo.org/records/11426992",
+    "zip_file": "sat-competition-2023-main-benchmarks.zip",
+    "zip_url": "https://zenodo.org/records/11426992/files/sat-competition-2023-main-benchmarks.zip?download=1",
+    "zip_bytes": 3367333095,
+    "zip_range_first": 1940933786,
+    "zip_range_last": 1940966469,
+    "zip_range_sha256": "6b952ccb8e2a404d1101944af56b3d272d172e35c8a35a961c91ff0c66eb1b60",
+    "zip_member_storage_method": 0,
+    "zip_member_data_offset": 92,
+    "zip_member_crc32": "96a12c58",
+    "member": "multiplier_14bits__miter_14.cnf.xz",
+    "member_bytes": 32364,
+    "member_sha256": "6893371b0497890275d65117720de7d14bde3aaf7d656cc25b09e78b82f4cf5e",
+    "cnf_bytes": 186196,
+    "cnf_sha256": "f59c75f6e2950d19b82a6af181555e484ff44882250ef6a07629e5a41de9fc82",
+    "variables": 4376,
+    "clauses": 13018
+  },
+  "gbd": {
+    "url": "https://benchmark-database.de/?track=main_2023",
+    "hash": "017ba03ed108f492c9293c7c95e5cae9",
+    "isohash": "26abc879bcffc5d1615ce8d9ca98a71b",
+    "family": "miter",
+    "author": "xindi",
+    "result": "unknown",
+    "tracks": [
+      "main_2023",
+      "submissions_2023"
+    ]
+  },
+  "verified_benchmark_result": "UNSAT",
+  "certificate": {
+    "filename": "multiplier_14bits_miter_14.pbp.gz",
+    "format": "Cutting-Planes kernel proof",
+    "status": "VERIFIED_UNSAT",
+    "bytes": 113931,
+    "sha256": "0cbf5643379a5d43fb0866f764cc269312b85ee3149958ec437b22d0c282fafc",
+    "uncompressed_bytes": 548427,
+    "uncompressed_sha256": "188221a8e33dca55824543c17a856c5406f88b3cc4cd0e28c0f3acf5825702a5",
+    "proof_steps": 14123,
+    "step_count_basis": "pol commands excluding the header, output, conclusion and end marker",
+    "elaboration_used": false
+  },
+  "verification_host": {
+    "os": "Windows 11 x86-64 with WSL2",
+    "cpu": "Intel Core i7",
+    "installed_ram_gib": 64,
+    "cakepb_heap_mib": 2048,
+    "cakepb_stack_mib": 512
+  },
+  "checkers": {
+    "VeriPB": {
+      "version": "3.0.2",
+      "binary_sha256": "d634fddf0a207435c8805c982d289e9a4b1bae43a15ddea932e7d41b30319806",
+      "status": "VERIFIED_UNSAT",
+      "exit_code": 0,
+      "marker": "s VERIFIED UNSATISFIABLE",
+      "wall_seconds": 0.094
+    },
+    "CakePB": {
+      "version": "CP2026",
+      "binary_sha256": "f053e94e6d884ccf01e89ec11db934657f45d7d0b0682ea84393bcfb6c9e4792",
+      "status": "VERIFIED_UNSAT",
+      "exit_code": 0,
+      "marker": "s VERIFIED UNSAT",
+      "wall_seconds": 7.062
+    }
+  },
+  "rights": {
+    "certificate_and_documentation": "CC BY 4.0",
+    "verify_certificates.py": "MIT",
+    "upstream": "THIRD_PARTY_NOTICES.md"
+  }
+}
